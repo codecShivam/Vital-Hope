@@ -28,3 +28,10 @@
       video.pause();
     }
   });
+
+
+let drawerContact = document.getElementById("drawer-contact");
+
+  function openDrawer(){
+   drawerContact = drawerContact.style.visibility = "visible";
+  }
